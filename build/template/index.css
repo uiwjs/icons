@@ -1,0 +1,107 @@
+body,
+html,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+body{
+  color: #696969;
+}
+
+a:hover{
+  color: rgb(9, 73, 209);
+}
+a{
+  color: #333;
+}
+
+.header {
+  color: #333;
+  text-align: center;
+  padding: 80px 0 60px 0;
+  min-height: 153px;
+}
+.header .logo svg{
+  height: 120px;
+  width: 120px;
+}
+.header h1{
+  font-size: 42px;
+  padding: 26px 0 10px 0;
+}
+.info{
+  color: #999;
+  font-weight: normal;
+  max-width: 346px;
+  margin: 0 auto;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.icons{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.icons ul {
+  text-align: center;
+}
+
+.icons ul li{
+  vertical-align: top;
+  width: 100px;
+  height: 60px;
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(0,0,0,.02);
+  border-radius: 3px;
+  padding: 29px 20px 10px 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  transition: all 0.6s ease;
+}
+.icons ul li:hover{
+  background-color: rgba(0,0,0,.06);
+}
+.icons ul li h4 {
+  font-weight: normal;
+  padding: 10px 0 5px 0;
+  display: block;
+  color: #8c8c8c;
+  font-size: 14px;
+  opacity: 0;
+}
+.icons ul li:hover h4{
+  opacity: 1;
+}
+.icons ul li svg {
+  width: 24px;
+  height: 24px;
+}
+.icons ul li svg path{
+  transition: all 0.3s ease;
+  fill: #444;
+}
+.icons ul li:hover svg path{
+  fill: #3c75e4;
+}
+
+.footer{
+  text-align: center;
+  padding: 50px 0 20px 0; 
+}
+
+.links{
+  text-align: center;
+  padding: 0 0 50px 0;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "icons",
+  "version": "1.0.0",
+  "description": "SVG icons for uiw Component Library.",
+  "scripts": {
+    "build": "node build/index.js",
+    "start": "./build/deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaywcjlove/icons.git"
+  },
+  "keywords": [
+    "svg",
+    "icon",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaywcjlove/icons/issues"
+  },
+  "homepage": "https://github.com/jaywcjlove/icons#readme",
+  "devDependencies": {
+    "copy-template-dir": "^1.3.0"
+  }
+}
