@@ -37,3 +37,7 @@ To build site and push gh-pages branch
 ```
 npm run start
 ```
+
+## License
+
+Licensed under the MIT License.
