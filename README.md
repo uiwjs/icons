@@ -16,7 +16,7 @@ SVG icons for uiw Component Library.
   </a>
 </p>
 
-![uiw-react/icon](icons/build/assets/uiw-font.png)
+![uiw-react/icon](build/assets/uiw-font.png)
 
 ## Development
 
