@@ -21,8 +21,8 @@ To build `*.svg` `*.ttf` `*.woff` `*.eot` files
 npm run font
 ```
 
-To build site
+To build site and push gh-pages branch
 
 ```
-npm run build
+npm run start
 ```
