@@ -8,9 +8,9 @@
 uiw-icon
 ---
 
-The premium icon font for  uiw Component Library. Designed by [@liwen0526](https://github.com/liwen0526). They are free to use and licensed under [MIT](https://opensource.org/licenses/MIT).
+The premium icon font for  uiw Component Library. Designed by [@liwen0526](https://github.com/liwen0526). 
 
-We intend for this icon pack to be used with [uiw](https://uiw-react.github.io), but it’s by no means limited to it. Use them wherever you see fit, personal or commercial. 
+They are free to use and licensed under [MIT](https://opensource.org/licenses/MIT). We intend for this icon pack to be used with [uiw](https://uiw-react.github.io), but it’s by no means limited to it. Use them wherever you see fit, personal or commercial. 
 
 <p align="center">
   <a href="https://uiw-react.github.io/icons">
