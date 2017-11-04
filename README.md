@@ -12,7 +12,7 @@ SVG icons for uiw Component Library.
 
 <p align="center">
   <a href="https://uiw-react.github.io/icons">
-    <img width="150" src="https://github.com/uiw-react/icons/raw/master/build/assets/uiw-font.png">
+    <img src="https://github.com/uiw-react/icons/raw/master/build/assets/uiw-font.png">
   </a>
 </p>
 
