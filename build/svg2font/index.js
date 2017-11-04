@@ -5,8 +5,6 @@ const SVGIcons2SVGFontStream = require('svgicons2svgfont');
 const defaultMetadataProvider = require('svgicons2svgfont/src/metadata');
 const pkg = require('../../package.json')
 
-var codePointAt = require('code-point-at');
-
 const { ttfEot, ttfWoff, svgTtf } = require('./ttf2eot');
 
 const copy = require('copy-template-dir');
@@ -67,22 +65,15 @@ function svgFont() {
     }
     glyph.metadata = {
       name: name,
-      unicode: [unicode, name]
+      unicode: [unicode]
     }
     if (name === 'uiw') {
       logohtml = fs.readFileSync(item, "utf-8");
     }
 
-    let aaa = codePointAt(name)
-    cssString.push(`.w-icon-${name}:before { content: "${unicode.toString(16)}"; }`);
-
-    // cssString.push('  "' + name + '": "' + unicodes + '"' + ((idx === icon_dir.length - 1) ? '' : ',') + '\n');
-
-    cssIconHtml.push(`<li><i class="w-icon-${name}"></i><p class="name">${name}</p></li>`)
-
-
-    // unicode_html.push(`<li class="icon"><span class="iconfont">&#${string2unicodes(unicode).join('')};</span><p class="name">${name}</p><span class="unicode">&amp;#${string2unicodes(unicode).join('')};</span></li>`)
-    unicode_html.push(`<li><span class="iconfont unicode-icon">&#${string2unicodes(unicode).join('')};</span><h4>${name}</h4><span class="unicode">&amp;#${string2unicodes(unicode).join('')};</span></li>`)
+    cssString.push(`.w-icon-${name}:before { content: "${'\\'}${unicode[0].charCodeAt(0).toString(16)}";}\n`);
+    cssIconHtml.push(`<li class="class-icon"><i class="w-icon-${name}"></i><p class="name">${name}</p></li>`)
+    unicode_html.push(`<li class="unicode-icon"><span class="iconfont">&#${string2unicodes(unicode).join('')};</span><h4>${name}</h4><span class="unicode">&amp;#${string2unicodes(unicode).join('')};</span></li>`)
 
     metadataProvider = defaultMetadataProvider({
       startUnicode: startUnicode,
@@ -91,7 +82,7 @@ function svgFont() {
     fontStream.write(glyph)
   });
   fontStream.end()
-  console.log("SVG Font successfully created!")
+  console.log("svg Font successfully created!")
 }
 
 
@@ -106,6 +97,8 @@ copy(font_temp, font_dir, {
   logosvg: logohtml,
   cssString: cssString.join(''),
   cssIconHtml: cssIconHtml.join(''),
+  homepage: pkg.homepage,
+  giturl: pkg.repository.url,
 }, (err, createdFiles) => {
   if (err) throw err
   console.log('')

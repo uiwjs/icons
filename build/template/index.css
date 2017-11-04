@@ -109,7 +109,7 @@ a{
   color: #8c8c8c;
   font-size: 14px;
   line-height: 12px;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 .icons ul li:hover h4{
   opacity: 1;
@@ -121,9 +121,21 @@ a{
 .icons ul li:hover {
   color: #3c75e4;
 } 
-.icons ul span.iconfont.unicode-icon{
-  /* fill: #3c75e4; */
+
+.icons ul .unicode-icon .iconfont{
   font-size: 21px;
+}
+.icons ul .unicode-icon span{
+  font-size: 12px;
+  display: block;
+}
+.icons ul .unicode-icon h4{
+  font-size: 12px;
+}
+
+.icons ul li.class-icon{
+  font-size: 21px;
+  padding-bottom: 20px;
 }
 
 .footer{
