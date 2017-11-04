@@ -8,7 +8,6 @@ form, fieldset, legend, button, input, textarea, /* form elements 表单元素 *
 th, td /* table elements 表格元素 */ {
   margin: 0;
   padding: 0;
-  font-size: 12px;
   font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
 }
 
@@ -136,6 +135,9 @@ a{
 .icons ul li.class-icon{
   font-size: 21px;
   padding-bottom: 20px;
+}
+.icons ul li.class-icon p{
+  font-size: 12px;
 }
 
 .footer{
