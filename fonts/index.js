@@ -1,38 +1,13 @@
-
-
 const fs = require("fs");
 const path = require('path');
 const copy = require('copy-template-dir')
 const pkg = require('../package.json')
+const { readSrcPathSync } = require('./utils')
 const _root = process.cwd();
 const data = {};
-
-
 let icon_dir = path.resolve(_root, 'icon')
 let dist_dir = path.resolve(_root, 'dist')
-let temp_dir = path.resolve(_root, 'build/template')
-//检查指定路径的文件或者目录是否存在
-function exists(path) {
-  return fs.existsSync(path);
-}
-//判断是不是目录
-function isDir(path) {
-  return exists(path) && fs.statSync(path).isDirectory();
-}
-//返回所有路径的 Array
-function readSrcPathSync(filepath, ret) {
-  var ret = ret || [],
-    files = fs.readdirSync(filepath);
-  for (var i = 0; i < files.length; i++) {
-    let curPath = path.resolve(filepath, files[i]);
-    if (isDir(curPath)) ret.concat(readSrcPathSync(curPath, ret));
-    else if (/\.(svg)$/.test(curPath)) {
-      ret.push(curPath);
-    }
-  }
-  return ret;
-}
-
+let temp_dir = path.resolve(_root, 'build/template/site')
 let logo = '';
 
 const html = readSrcPathSync(icon_dir).map((item, idx) => {

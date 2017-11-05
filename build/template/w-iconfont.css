@@ -1,0 +1,42 @@
+@font-face {font-family: "{{fontname}}";
+  src: url('{{fontname}}.eot?t=1509613120964'); /* IE9*/
+  src: url('{{fontname}}.eot?t=1509613120964#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('{{fontname}}.ttf?t=1509613120964') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('{{fontname}}.svg?t=1509613120964#{{fontname}}') format('svg'); /* iOS 4.1- */
+}
+
+[class^="w-icon-"], [class*=" w-icon-"] {
+  font-family: '{{fontname}}' !important;
+  display: inline-block;
+  font-style: normal;
+  vertical-align: baseline;
+  text-align: center;
+  text-transform: none;
+  line-height: 1;
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="w-icon-"]:before, 
+[class*=" w-icon-"]:before,
+[class^="w-icon-"]:after, 
+[class*=" w-icon-"]:after,{
+  display: inline-block;
+}
+
+[class^="w-icon-"]:after, 
+[class*=" w-icon-"]:after,{
+  vertical-align: middle;
+  content: '';
+  height: 100%;
+  width: 0;
+}
+
+
+{{cssString}}

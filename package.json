@@ -1,27 +1,53 @@
 {
-  "name": "icons",
-  "version": "1.0.0",
+  "name": "uiw-iconfont",
+  "version": "1.1.0",
   "description": "SVG icons for uiw Component Library.",
-  "scripts": {
-    "build": "node build/index.js",
-    "start": "./build/deploy"
-  },
+  "author": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaywcjlove/icons.git"
+    "url": "https://github.com/uiw-react/icons.git"
+  },
+  "homepage": "https://uiw-react.github.io/icons",
+  "scripts": {
+    "metapak": "metapak || exit 0",
+    "postinstall": "npm run metapak --silent",
+    "start": "./build/deploy",
+    "font": "node ./build/svg2font"
   },
   "keywords": [
     "svg",
     "icon",
-    "react"
+    "react",
+    "font",
+    "webfont",
+    "icon",
+    "iconfont",
+    "font-face",
+    "compress",
+    "minify",
+    "font-cli",
+    "otf",
+    "ttf",
+    "woff",
+    "eot",
+    "svg",
+    "ttf2eot",
+    "ttf2woff",
+    "ttf2svg",
+    "svg2ttf",
+    "css",
+    "base64"
   ],
-  "author": "",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jaywcjlove/icons/issues"
   },
-  "homepage": "https://github.com/jaywcjlove/icons#readme",
   "devDependencies": {
-    "copy-template-dir": "^1.3.0"
-  }
+    "copy-template-dir": "^1.3.0",
+    "metapak": "0.0.21",
+    "svg2ttf": "^4.0.0",
+    "svgicons2svgfont": "^7.0.2",
+    "ttf2eot": "^2.0.0",
+    "ttf2woff": "^2.0.1"
+  },
+  "license": "MIT"
 }
