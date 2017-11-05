@@ -36,6 +36,12 @@ You need link CSS
 <link rel="stylesheet" type="text/css" href="node_modules/fonts/w-iconfont.css">
 ```
 
+Used in Less:
+
+```css
+@import "~uiw-iconfont/fonts/w-iconfont.css";
+```
+
 note: It has a `w-icon-` prefix. 
 
 ```html
