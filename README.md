@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://uiw-react.github.io">
+  <a href="https://uiw-react.github.io/icons">
     <img width="150" src="https://raw.githubusercontent.com/uiw-react/uiw/master/docs/assets/logo-README.svg?sanitize=true">
   </a>
 </p>
@@ -8,7 +8,12 @@
 uiw-icon
 ---
 
+
+[![](https://img.shields.io/github/issues/uiw-react/icons.svg)](https://github.com/uiw-react/icons/issues) [![](https://img.shields.io/github/forks/uiw-react/icons.svg)](https://github.com/uiw-react/icons/network) [![](https://img.shields.io/github/stars/uiw-react/icons.svg)](https://github.com/uiw-react/icons/stargazers) [![](https://img.shields.io/github/release/uiw-react/icons.svg)](https://github.com/uiw-react/icons/releases) [![Packagist](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/uiw-react/icons) [![Packagist](https://img.shields.io/npm/v/uiw-iconfont.svg)](https://www.npmjs.com/package/uiw-iconfont)
+
 The premium icon font for  uiw Component Library. Designed by [@liwen0526](https://github.com/liwen0526). 
+
+Visit **[https://uiw-react.github.io/icons/](https://uiw-react.github.io/icons/)** and check out the search feature, which has keywords identifying common icon names and styles. For example, if you search for "arrow" we call up every icon that could possibly be used as an arrow. We've also included each icon's class name for easy copy / pasting when you're developing!
 
 They are free to use and licensed under [MIT](https://opensource.org/licenses/MIT). We intend for this icon pack to be used with [uiw](https://uiw-react.github.io), but it’s by no means limited to it. Use them wherever you see fit, personal or commercial. 
 
@@ -32,6 +37,12 @@ You need link CSS
 
 ```html
 <link rel="stylesheet" type="text/css" href="node_modules/fonts/w-iconfont.css">
+```
+
+Used in Less:
+
+```css
+@import "~uiw-iconfont/fonts/w-iconfont.css";
 ```
 
 note: It has a `w-icon-` prefix. 

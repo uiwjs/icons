@@ -123,9 +123,9 @@ a{
 
 .icons ul .unicode-icon .iconfont{
   font-size: 21px;
+  line-height: 21px;
 }
 .icons ul .unicode-icon span{
-  font-size: 12px;
   display: block;
 }
 .icons ul .unicode-icon h4{
@@ -134,6 +134,7 @@ a{
 
 .icons ul li.class-icon{
   font-size: 21px;
+  line-height: 21px;
   padding-bottom: 20px;
 }
 .icons ul li.class-icon p{
