@@ -1,6 +1,6 @@
 {
   "name": "uiw-iconfont",
-  "version": "1.2.1",
+  "version": "1.2.4",
   "description": "The premium icon font for uiw Component Library.",
   "author": "",
   "repository": {
@@ -10,8 +10,6 @@
   "homepage": "https://uiw-react.github.io/icons",
   "scripts": {
     "font": "node ./build/svg2font",
-    "metapak": "metapak || exit 0",
-    "postinstall": "npm run metapak --silent",
     "start": "./build/deploy"
   },
   "keywords": [
