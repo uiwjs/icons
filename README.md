@@ -5,7 +5,7 @@
 </p>
 
 
-uiw-icon
+Icon Font
 ---
 
 
@@ -65,6 +65,26 @@ Or use the `Unicode`, You can use [Unicode website](https://uiw-react.github.io/
 }
 </style>
 <span class="iconfont">&#59907;</span>
+```
+
+**In Webpack**
+
+```js
+{
+  test: /w-iconfont\.(eot|ttf|svg)$/,
+  use: [
+    {
+      loader: require.resolve('url-loader'),
+      options: { limit: 8192 }
+    },
+    {
+      loader: require.resolve('file-loader'),
+      options: {
+        name: 'static/fonts/[name].[hash:8].[ext]',
+      }
+    }
+  ]
+},
 ```
 
 ## Development
