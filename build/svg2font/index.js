@@ -95,6 +95,7 @@ copy(font_temp, font_dir, {
   version: pkg.version,
   svg_content: '',
   logosvg: logohtml,
+  timestamp: new Date().getTime(),
   cssString: cssString.join(''),
   cssIconHtml: cssIconHtml.join(''),
   homepage: pkg.homepage,
