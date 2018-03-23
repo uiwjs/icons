@@ -1,0 +1,152 @@
+*{margin: 0;padding: 0;list-style: none;}
+/** CSS Reset */
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+/** 设置默认字体 **/
+body,
+button, input, select, textarea /* for ie */ {
+  font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/** 重置列表元素 **/
+ul, ol { list-style: none; }
+
+/** 重置文本格式元素 **/
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+
+/** 重置表单元素 **/
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea { font-size: 100%; } /* 使得表单元素在 ie 下能继承字体大小 */
+/* 注：optgroup 无法扶正 */
+
+/** 重置表格元素 **/
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+body{
+  color: #696969;
+}
+
+a:hover{
+  color: rgb(9, 73, 209);
+}
+a{
+  color: #333;
+  text-decoration: underline;
+}
+
+.header {
+  color: #333;
+  text-align: center;
+  padding: 80px 0 60px 0;
+  min-height: 153px;
+}
+.header .logo svg{
+  height: 120px;
+  width: 120px;
+}
+.header h1{
+  font-size: 42px;
+  padding: 26px 0 10px 0;
+}
+.info{
+  color: #999;
+  font-weight: normal;
+  max-width: 346px;
+  margin: 0 auto;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.icons{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.icons ul {
+  text-align: center;
+}
+
+.icons ul li{
+  vertical-align: top;
+  width: 120px;
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(0,0,0,.02);
+  border-radius: 3px;
+  padding: 29px 0 10px 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  transition: all 0.6s ease;
+}
+.icons ul li:hover{
+  background-color: rgba(0,0,0,.06);
+}
+.icons ul li .unicode{
+  color: #8c8c8c;
+  opacity: 0.3;
+}
+.icons ul li h4 {
+  font-weight: normal;
+  padding: 10px 0 5px 0;
+  display: block;
+  color: #8c8c8c;
+  font-size: 14px;
+  line-height: 12px;
+  opacity: 0.8;
+}
+.icons ul li:hover h4{
+  opacity: 1;
+}
+.icons ul li svg {
+  width: 24px;
+  height: 24px;
+}
+.icons ul li:hover {
+  color: #3c75e4;
+} 
+
+.icons ul .unicode-icon .iconfont{
+  font-size: 21px;
+  line-height: 21px;
+}
+.icons ul .unicode-icon span{
+  display: block;
+}
+.icons ul .unicode-icon h4{
+  font-size: 12px;
+}
+
+.icons ul li.class-icon{
+  font-size: 21px;
+  line-height: 21px;
+  padding-bottom: 20px;
+}
+.icons ul li.class-icon p{
+  font-size: 12px;
+}
+
+.footer{
+  text-align: center;
+  padding: 10px 0 90px 0; 
+}
+
+.links{
+  text-align: center;
+  padding: 50px 0 0 0;
+}
