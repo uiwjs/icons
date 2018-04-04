@@ -45,6 +45,14 @@ Used in Less:
 @import "~uiw-iconfont/fonts/w-iconfont.css";
 ```
 
+Used in JS:
+
+```js
+import 'uiw-iconfont/fonts/w-iconfont.css';
+// or
+import 'uiw-iconfont/fonts/w-iconfont.less';
+```
+
 note: It has a `w-icon-` prefix. 
 
 ```html
