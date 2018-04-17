@@ -1,8 +1,16 @@
+/*!
+ * Icon Font v1.2.9
+ * The premium icon font for @uiw-react Component Library. 
+ * 
+ * https://github.com/uiw-react/icons
+ *
+ * Licensed under the MIT license.
+ */
 @font-face {font-family: "w-iconfont";
-  src: url('w-iconfont.eot?t=1522806061841'); /* IE9*/
-  src: url('w-iconfont.eot?t=1522806061841#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('w-iconfont.ttf?t=1522806061841') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('w-iconfont.svg?t=1522806061841#w-iconfont') format('svg'); /* iOS 4.1- */
+  src: url('w-iconfont.eot?t=1523948994496'); /* IE9*/
+  src: url('w-iconfont.eot?t=1523948994496#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('w-iconfont.ttf?t=1523948994496') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('w-iconfont.svg?t=1523948994496#w-iconfont') format('svg'); /* iOS 4.1- */
 }
 
 [class^="w-icon-"], [class*=" w-icon-"] {
