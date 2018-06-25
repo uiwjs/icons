@@ -9,6 +9,7 @@
   },
   "homepage": "https://uiw-react.github.io/icons",
   "scripts": {
+    "release": "npm run font && release-it --src.tagName='v%s'",
     "font": "node ./build/svg2font",
     "metapak": "metapak",
     "start": "npm run font && node ./build/deploy.js",
@@ -47,6 +48,7 @@
     "gh-pages": "^1.2.0",
     "loading-cli": "^1.0.6",
     "metapak": "1.0.2",
+    "release-it": "^7.4.7",
     "svg2ttf": "^4.1.0",
     "svgicons2svgfont": "^8.0.0",
     "ttf2eot": "^2.0.0",
