@@ -11,7 +11,7 @@
   "scripts": {
     "font": "node ./build/svg2font",
     "metapak": "metapak",
-    "start": "./build/deploy",
+    "start": "npm run font && node ./build/deploy.js",
     "deploy": "gh-pages -d fonts"
   },
   "keywords": [
