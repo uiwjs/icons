@@ -16,6 +16,7 @@ svgtofont({
   website: {
     title: "uiw icons",
     // Must be a .svg format image.
+    favicon: path.resolve(process.cwd(), "assets", "favicon.png"),
     logo: path.resolve(process.cwd(), "icon", "uiw.svg"),
     version: pkg.version,
     meta: {

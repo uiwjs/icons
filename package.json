@@ -45,7 +45,7 @@
     "gh-pages": "^2.0.0",
     "loading-cli": "^1.0.8",
     "release-it": "^7.6.1",
-    "svgtofont": "^1.1.7"
+    "svgtofont": "^1.1.8"
   },
   "license": "MIT"
 }
