@@ -9,7 +9,7 @@
   },
   "homepage": "https://uiw-react.github.io/icons",
   "scripts": {
-    "release": "npm run font && release-it --src.tagName='v%s'",
+    "release": "release-it --src.tagName='v%s'",
     "font": "node script/index.js",
     "start": "npm run font && npm run deploy",
     "deploy": "node script/deploy.js"
