@@ -34,7 +34,7 @@ svgtofont({
       },
       {
         title: "GitHub",
-        url: "https://uiw-react.github.io/#/cn/icon"
+        url: "https://github.com/uiw-react/icons"
       },
       {
         title: "Feedback",
