@@ -19,7 +19,7 @@ They are free to use and licensed under [MIT](https://opensource.org/licenses/MI
 
 <p align="center">
   <a href="https://uiw-react.github.io/icons">
-    <img src="https://github.com/uiw-react/icons/raw/master/build/assets/uiw-font.png">
+    <img src="https://github.com/uiw-react/icons/raw/master/assets/uiw-font.png">
   </a>
 </p>
 
@@ -113,4 +113,4 @@ npm run start
 
 ## License
 
-Licensed under the [MIT License](https://opensource.org/licenses/MIT).
+Created By [svgtofont](https://github.com/jaywcjlove/svgtofont), Licensed under the [MIT License](https://opensource.org/licenses/MIT).
