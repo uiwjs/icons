@@ -41,11 +41,15 @@ svgtofont({
         url: "https://github.com/uiw-react/icons/issues"
       },
       {
-        title: "Font Class",
+        title: "Font Class Demo",
         url: "index.html"
       },
       {
-        title: "Unicode",
+        title: "Symbol Demo",
+        url: "symbol.html"
+      },
+      {
+        title: "Unicode Demo",
         url: "unicode.html"
       }
     ],
