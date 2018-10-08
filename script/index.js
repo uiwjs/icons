@@ -5,7 +5,7 @@ const pkg = require('../package.json')
 svgtofont({
   src: path.resolve(process.cwd(), "icon"), // svg path
   dist: path.resolve(process.cwd(), "fonts"), // output path
-  fontName: "w-iconfont", // font name
+  fontName: "w-icon", // font name
   css: true, // Create CSS files.
   startNumber: 20000, // unicode start number
   nodemo: true, // no demo html files

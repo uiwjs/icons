@@ -36,21 +36,21 @@ You can use [https://uiw-react.github.io/icons/](https://uiw-react.github.io/ico
 You need link CSS
 
 ```html
-<link rel="stylesheet" type="text/css" href="node_modules/fonts/w-iconfont.css">
+<link rel="stylesheet" type="text/css" href="node_modules/fonts/w-icon.css">
 ```
 
 Used in Less:
 
 ```css
-@import "~uiw-iconfont/fonts/w-iconfont.css";
+@import "~uiw-iconfont/fonts/w-icon.css";
 ```
 
 Used in JS:
 
 ```js
-import 'uiw-iconfont/fonts/w-iconfont.css';
+import 'uiw-iconfont/fonts/w-icon.css';
 // or
-import 'uiw-iconfont/fonts/w-iconfont.less';
+import 'uiw-iconfont/fonts/w-icon.less';
 ```
 
 note: It has a `w-icon-` prefix. 
