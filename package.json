@@ -10,7 +10,7 @@
   "homepage": "https://uiw-react.github.io/icons",
   "scripts": {
     "release": "release-it --src.tagName='v%s'",
-    "font": "node script/index.js",
+    "font": "node script/build.js",
     "start": "npm run font && npm run deploy",
     "deploy": "node script/deploy.js"
   },
@@ -45,7 +45,7 @@
     "gh-pages": "^2.0.0",
     "loading-cli": "^1.0.8",
     "release-it": "^7.6.1",
-    "svgtofont": "^1.1.10"
+    "svgtofont": "^1.1.12"
   },
   "license": "MIT"
 }
