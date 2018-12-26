@@ -64,7 +64,7 @@ Or use the `Unicode`, You can use [Unicode website](https://uiw-react.github.io/
 ```html
 <style>
 .iconfont{
-  font-family: "w-iconfont" !important;
+  font-family: "w-icon" !important;
   font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -75,11 +75,18 @@ Or use the `Unicode`, You can use [Unicode website](https://uiw-react.github.io/
 <span class="iconfont">&#59907;</span>
 ```
 
+Or manually download and link `**uiw-iconfont**` in your HTML, It can also be downloaded via [UNPKG](https://unpkg.com/uiw-iconfont/):
+
+```html
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/uiw-iconfont/fonts/w-icon.css">
+<span class="w-icon-adobe"></span>
+```
+
 **In Webpack**
 
 ```js
 {
-  test: /w-iconfont\.(eot|ttf|svg)$/,
+  test: /w-icon\.(eot|ttf|svg)$/,
   use: [
     {
       loader: require.resolve('url-loader'),
