@@ -1,11 +1,12 @@
-const svgtofont = require("svgtofont");
 const path = require("path");
-const pkg = require('../package.json')
+const svgtofont = require("svgtofont");
+const pkg = require('../package.json');
 
 svgtofont({
   src: path.resolve(process.cwd(), "icon"), // svg path
   dist: path.resolve(process.cwd(), "fonts"), // output path
   emptyDist: true,
+  outSVGPath: true,
   fontName: "w-icon", // font name
   css: true, // Create CSS files.
   startNumber: 20000, // unicode start number
@@ -59,6 +60,7 @@ svgtofont({
       Licensed under MIT. (Yes it's free and <a href="https://github.com/uiw-react/icons">open-sourced</a>)
     `
   }
-}).then(() => {
+})
+.then(() => {
   console.log("done!");
 });
