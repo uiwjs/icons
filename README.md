@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://uiw-react.github.io/icons">
-    <img width="150" src="https://raw.githubusercontent.com/uiw-react/icons/master/assets/logo.png?sanitize=true">
+    <img width="150" src="https://raw.githubusercontent.com/uiw-react/icons/master/assets/logo.svg?sanitize=true">
   </a>
 </p>
 
