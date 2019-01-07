@@ -39,13 +39,13 @@ You need link CSS
 <link rel="stylesheet" type="text/css" href="node_modules/fonts/w-icon.css">
 ```
 
-Used in Less:
+**Used in Less:**
 
 ```css
 @import "~uiw-iconfont/fonts/w-icon.css";
 ```
 
-Used in JS:
+**Used in JS:**
 
 ```js
 import 'uiw-iconfont/fonts/w-icon.css';
@@ -101,6 +101,46 @@ Or manually download and link `**uiw-iconfont**` in your HTML, It can also be do
   ]
 },
 ```
+
+## React
+
+Create an `Icon` component.
+
+```jsx
+import React from 'react';
+import svgPaths from 'uiw-iconfont/fonts/w-icon.json';
+
+const renderSvgPaths = (type) => {
+  const pathStrings = svgPaths[type];
+  if (pathStrings == null) {
+    return null
+  }
+  return pathStrings.map((d, i) => <path key={i} d={d} fillRule="evenodd" />)
+}
+
+export default class Icon extends React.PureComponent {
+  render() {
+    const { type, color } = this.props;
+    if (type == null || typeof type === "boolean") {
+      return null;
+    }
+    return (
+      <svg fill={color} viewBox={`0 0 24 24`}>{this.renderSvgPaths(type)}</svg>
+    );
+  }
+}
+```
+
+Use the `Icon` component:
+
+```jsx
+const demo = () => {
+  return (
+    <Icon type="heart-on" />
+  )
+}
+```
+
 
 ## Development
 
