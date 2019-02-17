@@ -1,13 +1,13 @@
 {
   "name": "uiw-iconfont",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "The premium icon font for uiw Component Library.",
   "author": "Kenny <wowohoo@qq.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/uiw-react/icons.git"
+    "url": "https://github.com/uiwjs/icons.git"
   },
-  "homepage": "https://uiw-react.github.io/icons",
+  "homepage": "https://uiwjs.github.io/icons",
   "scripts": {
     "release": "release-it --src.tagName='v%s'",
     "font": "node script/build.js",

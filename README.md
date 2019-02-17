@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://uiw-react.github.io/icons">
-    <img width="150" src="https://raw.githubusercontent.com/uiw-react/icons/master/assets/logo.svg?sanitize=true">
+  <a href="https://uiwjs.github.io/icons">
+    <img width="150" src="https://raw.githubusercontent.com/uiwjs/icons/master/assets/logo.svg?sanitize=true">
   </a>
 </p>
 
@@ -9,17 +9,17 @@ Icon Font
 ---
 
 
-[![](https://img.shields.io/github/issues/uiw-react/icons.svg)](https://github.com/uiw-react/icons/issues) [![](https://img.shields.io/github/forks/uiw-react/icons.svg)](https://github.com/uiw-react/icons/network) [![](https://img.shields.io/github/stars/uiw-react/icons.svg)](https://github.com/uiw-react/icons/stargazers) [![](https://img.shields.io/github/release/uiw-react/icons.svg)](https://github.com/uiw-react/icons/releases) [![Packagist](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/uiw-react/icons) [![Packagist](https://img.shields.io/npm/v/uiw-iconfont.svg)](https://www.npmjs.com/package/uiw-iconfont)
+[![](https://img.shields.io/github/issues/uiwjs/icons.svg)](https://github.com/uiwjs/icons/issues) [![](https://img.shields.io/github/forks/uiwjs/icons.svg)](https://github.com/uiwjs/icons/network) [![](https://img.shields.io/github/stars/uiwjs/icons.svg)](https://github.com/uiwjs/icons/stargazers) [![](https://img.shields.io/github/release/uiwjs/icons.svg)](https://github.com/uiwjs/icons/releases) [![Packagist](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/uiwjs/icons) [![Packagist](https://img.shields.io/npm/v/uiw-iconfont.svg)](https://www.npmjs.com/package/uiw-iconfont)
 
 The premium icon font for  uiw Component Library. Designed by [@liwen0526](https://github.com/liwen0526). 
 
-Visit **[https://uiw-react.github.io/icons/](https://uiw-react.github.io/icons/)** and check out the search feature, which has keywords identifying common icon names and styles. For example, if you search for "arrow" we call up every icon that could possibly be used as an arrow. We've also included each icon's class name for easy copy / pasting when you're developing!
+Visit **[https://uiwjs.github.io/icons/](https://uiwjs.github.io/icons/)** and check out the search feature, which has keywords identifying common icon names and styles. For example, if you search for "arrow" we call up every icon that could possibly be used as an arrow. We've also included each icon's class name for easy copy / pasting when you're developing!
 
-They are free to use and licensed under [MIT](https://opensource.org/licenses/MIT). We intend for this icon pack to be used with [uiw](https://uiw-react.github.io), but it’s by no means limited to it. Use them wherever you see fit, personal or commercial. 
+They are free to use and licensed under [MIT](https://opensource.org/licenses/MIT). We intend for this icon pack to be used with [uiw](https://uiwjs.github.io), but it’s by no means limited to it. Use them wherever you see fit, personal or commercial. 
 
 <p align="center">
-  <a href="https://uiw-react.github.io/icons">
-    <img src="https://github.com/uiw-react/icons/raw/master/assets/uiw-font.png">
+  <a href="https://uiwjs.github.io/icons">
+    <img src="https://github.com/uiwjs/icons/raw/master/assets/uiw-font.png">
   </a>
 </p>
 
@@ -31,7 +31,7 @@ npm install uiw-iconfont --save
 
 ## HTML Example
 
-You can use [https://uiw-react.github.io/icons/](https://uiw-react.github.io/icons/) to easily find the icon you want to use. Once you've copied the desired icon's CSS classname, simply add the icon and icon's classname, such as `apple` to an HTML element.
+You can use [https://uiwjs.github.io/icons/](https://uiwjs.github.io/icons/) to easily find the icon you want to use. Once you've copied the desired icon's CSS classname, simply add the icon and icon's classname, such as `apple` to an HTML element.
 
 You need link CSS
 
@@ -59,7 +59,7 @@ note: It has a `w-icon-` prefix.
 <i class="w-icon-apple"></i>
 ```
 
-Or use the `Unicode`, You can use [Unicode website](https://uiw-react.github.io/icons/unicode.html) to easily find the `Unicode` icon you want to use. 
+Or use the `Unicode`, You can use [Unicode website](https://uiwjs.github.io/icons/unicode.html) to easily find the `Unicode` icon you want to use. 
 
 ```html
 <style>

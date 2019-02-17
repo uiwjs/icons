@@ -4,7 +4,7 @@ const loading = require('loading-cli');
 require('colors-cli/toxic');
 const pkg = require('../package.json');
 
-const ORIGIN = "git@github.com:uiw-react/icons.git";
+const ORIGIN = "git@github.com:uiwjs/icons.git";
 const BRANCH = 'gh-pages';
 
 console.log('  Start public to your git repo'.green);
