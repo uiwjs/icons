@@ -28,20 +28,20 @@ svgtofont({
         "uiw, uiw-react, react.js, react, component, svg, icon, components, ui, framework, toolkit,icon,file-icons,TTF,EOT,WOFF,WOFF2,SVG"
     },
     description: `
-      The premium icon font for <a href="https://github.com/uiw-react/uiw">@uiw-react</a> Component Library.
+      The premium icon font for <a href="https://github.com/uiwjs/uiw">@uiw-react</a> Component Library.
     `,
     links: [
       {
         title: "Cheatsheet",
-        url: "https://github.com/uiw-react/icons"
+        url: "https://github.com/uiwjs/icons"
       },
       {
         title: "GitHub",
-        url: "https://github.com/uiw-react/icons"
+        url: "https://github.com/uiwjs/icons"
       },
       {
         title: "Feedback",
-        url: "https://github.com/uiw-react/icons/issues"
+        url: "https://github.com/uiwjs/icons/issues"
       },
       {
         title: "Font Class Demo",
@@ -58,7 +58,7 @@ svgtofont({
     ],
     footerInfo: `
       Designed by <a href="https://github.com/liwen0526">@liwen0526</a>. 
-      Licensed under MIT. (Yes it's free and <a href="https://github.com/uiw-react/icons">open-sourced</a>)
+      Licensed under MIT. (Yes it's free and <a href="https://github.com/uiwjs/icons">open-sourced</a>)
     `
   }
 })
