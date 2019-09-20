@@ -28,7 +28,7 @@ svgtofont({
         "uiw, uiw-react, react.js, react, component, svg, icon, components, ui, framework, toolkit,icon,file-icons,TTF,EOT,WOFF,WOFF2,SVG"
     },
     description: `
-      The premium icon font for <a href="https://github.com/uiwjs/uiw">@uiw-react</a> Component Library.
+      The premium icon font for <a href="https://github.com/uiwjs/uiw">@uiw</a> Component Library.
     `,
     links: [
       {
