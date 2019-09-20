@@ -9,7 +9,7 @@ Icon Font
 ---
 
 
-[![](https://img.shields.io/github/issues/uiwjs/icons.svg)](https://github.com/uiwjs/icons/issues) [![](https://img.shields.io/github/forks/uiwjs/icons.svg)](https://github.com/uiwjs/icons/network) [![](https://img.shields.io/github/stars/uiwjs/icons.svg)](https://github.com/uiwjs/icons/stargazers) [![](https://img.shields.io/github/release/uiwjs/icons.svg)](https://github.com/uiwjs/icons/releases) [![Packagist](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/uiwjs/icons) [![Packagist](https://img.shields.io/npm/v/uiw-iconfont.svg)](https://www.npmjs.com/package/uiw-iconfont)
+[![](https://img.shields.io/github/issues/uiwjs/icons.svg)](https://github.com/uiwjs/icons/issues) [![](https://img.shields.io/github/forks/uiwjs/icons.svg)](https://github.com/uiwjs/icons/network) [![](https://img.shields.io/github/stars/uiwjs/icons.svg)](https://github.com/uiwjs/icons/stargazers) [![](https://img.shields.io/github/release/uiwjs/icons.svg)](https://github.com/uiwjs/icons/releases) [![Packagist](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/uiwjs/icons) [![Packagist](https://img.shields.io/npm/v/@uiw/icons.svg)](https://www.npmjs.com/package/@uiw/icons)
 
 The premium icon font for  uiw Component Library. Designed by [@liwen0526](https://github.com/liwen0526). 
 
@@ -26,7 +26,10 @@ They are free to use and licensed under [MIT](https://opensource.org/licenses/MI
 ## Installation
 
 ```bash
+# v1.x +
 npm install uiw-iconfont --save
+# v2.x 
+npm install @uiw/icons --save
 ```
 
 ## HTML Example
@@ -36,21 +39,21 @@ You can use [https://uiwjs.github.io/icons/](https://uiwjs.github.io/icons/) to 
 You need link CSS
 
 ```html
-<link rel="stylesheet" type="text/css" href="node_modules/fonts/w-icon.css">
+<link rel="stylesheet" type="text/css" href="node_modules/@uiw/icons/w-icon.css">
 ```
 
 **Used in Less:**
 
 ```css
-@import "~uiw-iconfont/fonts/w-icon.css";
+@import "~@uiw/icons/fonts/w-icon.css";
 ```
 
 **Used in JS:**
 
 ```js
-import 'uiw-iconfont/fonts/w-icon.css';
+import '@uiw/icons/fonts/w-icon.css';
 // or
-import 'uiw-iconfont/fonts/w-icon.less';
+import '@uiw/icons/fonts/w-icon.less';
 ```
 
 note: It has a `w-icon-` prefix. 
@@ -75,10 +78,10 @@ Or use the `Unicode`, You can use [Unicode website](https://uiwjs.github.io/icon
 <span class="iconfont">&#59907;</span>
 ```
 
-Or manually download and link `**uiw-iconfont**` in your HTML, It can also be downloaded via [UNPKG](https://unpkg.com/uiw-iconfont/):
+Or manually download and link `**@uiw/icons**` in your HTML, It can also be downloaded via [UNPKG](https://unpkg.com/@uiw/icons/):
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/uiw-iconfont/fonts/w-icon.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/@uiw/icons/fonts/w-icon.css">
 <span class="w-icon-adobe"></span>
 ```
 
@@ -108,7 +111,7 @@ Create an `Icon` component.
 
 ```jsx
 import React from 'react';
-import svgPaths from 'uiw-iconfont/fonts/w-icon.json';
+import svgPaths from '@uiw/icons/fonts/w-icon.json';
 
 const renderSvgPaths = (type) => {
   const pathStrings = svgPaths[type];
