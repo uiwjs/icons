@@ -12,7 +12,7 @@
     "release": "release-it --src.tagName='v%s'",
     "font": "node script/build.js",
     "start": "npm run font && npm run deploy",
-    "deploy": "gh-pages -d fonts"
+    "deploy": "node script/deploy.js"
   },
   "files": [
     "fonts"
