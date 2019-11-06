@@ -170,6 +170,8 @@ export * from './SmileO';
 export * from './Smile';
 export * from './StarOff';
 export * from './StarOn';
+export * from './StopO';
+export * from './Stop';
 export * from './SwapLeft';
 export * from './SwapRight';
 export * from './Swap';
