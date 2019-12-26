@@ -30,6 +30,10 @@ svgtofont({
     description: `
       The premium icon font for <a href="https://github.com/uiwjs/uiw">@uiw</a> Component Library.
     `,
+    corners: {
+      url: 'https://github.com/uiwjs/icons',
+      bgColor: '#4A4A4A',
+    },
     links: [
       {
         title: "Cheatsheet",

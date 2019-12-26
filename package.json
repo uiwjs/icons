@@ -47,8 +47,8 @@
   "devDependencies": {
     "gh-pages": "^2.0.0",
     "loading-cli": "^1.0.8",
-    "release-it": "^7.6.1",
-    "svgtofont": "^1.1.17"
+    "release-it": "^12.4.3",
+    "svgtofont": "^1.6.0"
   },
   "license": "MIT"
 }
