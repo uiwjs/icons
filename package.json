@@ -1,6 +1,6 @@
 {
   "name": "@uiw/icons",
-  "version": "2.4.0",
+  "version": "2.4.3",
   "description": "The premium icon font for uiw Component Library.",
   "author": "Kenny <wowohoo@qq.com>",
   "repository": {
@@ -9,7 +9,6 @@
   },
   "homepage": "https://uiwjs.github.io/icons",
   "scripts": {
-    "prepare": "npm run font",
     "release": "release-it --src.tagName='v%s'",
     "font": "node script/build.js",
     "start": "npm run font && npm run deploy",
