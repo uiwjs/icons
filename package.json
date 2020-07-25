@@ -45,10 +45,10 @@
     "url": "https://github.com/jaywcjlove/icons/issues"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.0",
-    "loading-cli": "^1.0.8",
-    "release-it": "^12.4.3",
-    "svgtofont": "^1.6.0"
+    "gh-pages": "2.2.0",
+    "loading-cli": "1.1.0",
+    "release-it": "12.6.3",
+    "svgtofont": "1.6.0"
   },
   "license": "MIT"
 }
