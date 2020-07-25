@@ -11,8 +11,7 @@
   "scripts": {
     "release": "release-it --src.tagName='v%s'",
     "font": "node script/build.js",
-    "start": "npm run font && npm run deploy",
-    "deploy": "node script/deploy.js"
+    "start": "npm run font"
   },
   "files": [
     "fonts"
