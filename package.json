@@ -46,7 +46,7 @@
   "devDependencies": {
     "loading-cli": "1.1.0",
     "release-it": "12.6.3",
-    "svgtofont": "3.2.0"
+    "svgtofont": "3.8.0"
   },
   "license": "MIT"
 }
