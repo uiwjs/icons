@@ -1,6 +1,6 @@
 {
   "name": "@uiw/icons",
-  "version": "2.4.3",
+  "version": "2.4.4",
   "description": "The premium icon font for uiw Component Library.",
   "author": "Kenny <wowohoo@qq.com>",
   "repository": {
@@ -44,8 +44,6 @@
     "url": "https://github.com/jaywcjlove/icons/issues"
   },
   "devDependencies": {
-    "loading-cli": "1.1.0",
-    "release-it": "12.6.3",
     "svgtofont": "3.11.0"
   },
   "license": "MIT"
