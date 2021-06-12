@@ -43,7 +43,7 @@
     "url": "https://github.com/jaywcjlove/icons/issues"
   },
   "devDependencies": {
-    "svgtofont": "3.11.3"
+    "svgtofont": "3.11.4"
   },
   "license": "MIT"
 }
