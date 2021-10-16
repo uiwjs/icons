@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>minus</title>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop" transform="translate(-390.000000, -432.000000)" fill="#555555" fill-rule="nonzero">
+            <g id="icon" transform="translate(70.000000, 212.000000)">
+                <g id="minus" transform="translate(320.000000, 220.000000)">
+                    <path d="M0.7,10.4 C0.313400675,10.4 0,10.0865993 0,9.7 C0,9.31340068 0.313400675,9 0.7,9 L19.3055622,9 C19.6921615,9 20.0055622,9.31340068 20.0055622,9.7 C20.0055622,10.0865993 19.6921615,10.4 19.3055622,10.4 L0.7,10.4 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
