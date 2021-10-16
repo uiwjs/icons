@@ -51,6 +51,10 @@ jobs:
           npm i @uiw/icons@${{steps.create_tag.outputs.versionNumber}}
           ```
 
+          [@uiw/icons@${{steps.create_tag.outputs.versionNumber}} document](https://raw.githack.com/uiwjs/icons/v${{steps.create_tag.outputs.versionNumber}}/fonts/index.html)
+
+          [uiw icons measure](https://raw.githack.com/uiwjs/icons/v${{steps.create_tag.outputs.versionNumber}}/measure/uiw-icons/index.html)
+
           ${{ steps.changelog.outputs.compareurl }}
 
           ${{ steps.changelog.outputs.changelog }}
