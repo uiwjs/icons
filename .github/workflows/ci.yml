@@ -55,5 +55,7 @@ jobs:
 
           ${{ steps.changelog.outputs.changelog }}
 
+    - run: rm -rf fonts/uiw-icons
+    - run: rm -rf fonts/*.html
     - run: npm install @jsdevtools/npm-publish -g
     - run: npm-publish --token="${{ secrets.NPM_TOKEN }}" ./package.json
