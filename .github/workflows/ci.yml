@@ -14,6 +14,7 @@ jobs:
 
     - run: npm install
     - run: npm run font
+    - run: cp -rp measure/uiw-icons fonts
 
     - name: Create Tag
       id: create_tag
@@ -52,6 +53,7 @@ jobs:
           ```
 
           ${{ steps.changelog.outputs.compareurl }}
+
           ${{ steps.changelog.outputs.changelog }}
 
     - run: npm install @jsdevtools/npm-publish -g
