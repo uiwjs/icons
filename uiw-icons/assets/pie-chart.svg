@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pie-chart</title>
+    <defs>
+        <path d="M1.36909829,18.6151347 L19.3154509,18.6151347 C19.6935169,18.6151347 20,18.9251474 20,19.3075674 C20,19.6899873 19.6935169,20 19.3154509,20 L0.684549146,20 C0.306483092,20 0,19.6899873 0,19.3075674 L0,0.692432639 C0,0.310012652 0.306483092,0 0.684549146,0 C1.0626152,0 1.36909829,0.310012652 1.36909829,0.692432639 L1.36909829,18.6151347 Z M2.83676637,17.3989425 L5.59036035,11.8283319 L8.34395433,13.2209845 L11.7863833,9.04214355 L14.5399773,11.1315641 L18.6712413,4.86418564 L18.6712413,17.3989425 L2.83676637,17.3989425 Z" id="path-1"></path>
+    </defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop" transform="translate(-190.000000, -632.000000)">
+            <g id="icon" transform="translate(70.000000, 212.000000)">
+                <g id="编组" transform="translate(120.000000, 420.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="area-chart" fill="#555555" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
