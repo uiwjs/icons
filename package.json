@@ -1,8 +1,9 @@
 {
   "name": "@uiw/icons",
-  "version": "2.5.2",
+  "version": "2.5.3",
   "description": "The premium icon font for uiw Component Library.",
   "author": "Kenny <wowohoo@qq.com>",
+  "types": "fonts/w-icon.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/uiwjs/icons.git"
