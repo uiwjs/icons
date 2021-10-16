@@ -12,6 +12,7 @@ svgtofont({
   css: true, // Create CSS files.
   startNumber: 20000, // unicode start number
   nodemo: true, // no demo html files
+  typescript: true, // no demo html files
   svgicons2svgfont: {
     fontHeight: 1000,
     normalize: true
