@@ -40,6 +40,10 @@ svgtofont({
         url: "https://github.com/uiwjs/icons"
       },
       {
+        title: "Measure",
+        url: "https://uiwjs.github.io/icons/uiw-icons"
+      },
+      {
         title: "GitHub",
         url: "https://github.com/uiwjs/icons"
       },
