@@ -8,8 +8,10 @@
 uiw-icons
 ---
 
-
-[![](https://img.shields.io/github/issues/uiwjs/icons.svg)](https://github.com/uiwjs/icons/issues) [![](https://img.shields.io/github/forks/uiwjs/icons.svg)](https://github.com/uiwjs/icons/network) [![](https://img.shields.io/github/stars/uiwjs/icons.svg)](https://github.com/uiwjs/icons/stargazers) [![](https://img.shields.io/github/release/uiwjs/icons.svg)](https://github.com/uiwjs/icons/releases) [![Packagist](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/uiwjs/icons) [![Packagist](https://img.shields.io/npm/v/@uiw/icons.svg)](https://www.npmjs.com/package/@uiw/icons)
+[![NPM Downloads](https://img.shields.io/npm/dm/@uiw/icons.svg?style=flat)](https://www.npmjs.com/package/@uiw/icons)
+[![releases version](https://img.shields.io/github/release/uiwjs/icons.svg)](https://github.com/uiwjs/icons/releases)
+[![LICENSE](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/uiwjs/icons)
+[![NPM Version](https://img.shields.io/npm/v/@uiw/icons.svg)](https://www.npmjs.com/package/@uiw/icons)
 
 The premium icon font for [uiwjs](https://github.com/uiwjs) Component Library. Designed by [@liwen0526](https://github.com/liwen0526). 
 
@@ -26,9 +28,6 @@ They are free to use and licensed under [MIT](https://opensource.org/licenses/MI
 ## Installation
 
 ```bash
-# v1.x +
-npm install uiw-iconfont --save
-# v2.x 
 npm install @uiw/icons --save
 ```
 
