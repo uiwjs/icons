@@ -109,6 +109,14 @@ Or manually download and link `**@uiw/icons**` in your HTML, It can also be down
 Create an `Icon` component.
 
 ```jsx
+import { Adobe } from '@uiw/icons';
+
+const Demo = () => <Adobe />;
+```
+
+
+
+```jsx
 import React from 'react';
 import svgPaths from '@uiw/icons/fonts/w-icon.json';
 
