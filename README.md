@@ -106,7 +106,7 @@ Or manually download and link `**@uiw/icons**` in your HTML, It can also be down
 
 ## React
 
-Icons are used as components. `v2.6.2` support.
+Icons are used as components. `v2.6.2+` support.
 
 ```jsx
 import { Adobe, Alipay } from '@uiw/icons';
