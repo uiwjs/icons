@@ -1,0 +1,59 @@
+{
+  "emptyDist": true,
+  "outSVGReact": true,
+  "outSVGPath": true,
+  "fontName": "w-icon",
+  "css": true,
+  "startNumber": 20000,
+  "nodemo": true,
+  "typescript": true,
+  "svgicons2svgfont": {
+    "fontHeight": 1000,
+    "normalize": true
+  },
+  "website": {
+    "title": "uiw icons",
+    "favicon": "assets/favicon.png",
+    "logo": "icon/uiw.svg",
+    "meta": {
+      "description": "The premium icon font for @uiw-react Component Library.",
+      "keywords": "uiw, uiw-react, react.js, react, component, svg, icon, components, ui, framework, toolkit,icon,file-icons,TTF,EOT,WOFF,WOFF2,SVG"
+    },
+    "description": "The premium icon font for <a href=\"https://github.com/uiwjs/uiw\">@uiw</a> Component Library.",
+    "corners": {
+      "url": "https://github.com/uiwjs/icons",
+      "bgColor": "#4A4A4A"
+    },
+    "links": [
+      {
+        "title": "Cheatsheet",
+        "url": "https://github.com/uiwjs/icons"
+      },
+      {
+        "title": "Measure",
+        "url": "https://uiwjs.github.io/icons/uiw-icons"
+      },
+      {
+        "title": "GitHub",
+        "url": "https://github.com/uiwjs/icons"
+      },
+      {
+        "title": "Feedback",
+        "url": "https://github.com/uiwjs/icons/issues"
+      },
+      {
+        "title": "Font Class Demo",
+        "url": "index.html"
+      },
+      {
+        "title": "Symbol Demo",
+        "url": "symbol.html"
+      },
+      {
+        "title": "Unicode Demo",
+        "url": "unicode.html"
+      }
+    ],
+    "footerInfo": "Designed by <a href=\"https://github.com/liwen0526\">@liwen0526</a>. Licensed under MIT. (Yes it's free and <a href=\"https://github.com/uiwjs/icons\">open-sourced</a>)"
+  }
+}
