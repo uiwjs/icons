@@ -14,7 +14,7 @@ jobs:
 
     - run: npm install
     - run: npm run font
-    - run: cp -rp measure/uiw-icons fonts
+    - run: cp -rp measure/design fonts
 
     - name: Create Tag
       id: create_tag
@@ -51,7 +51,7 @@ jobs:
           npm i @uiw/icons@${{steps.create_tag.outputs.versionNumber}}
           ```
 
-          [@uiw/icons@${{steps.create_tag.outputs.versionNumber}} document](https://raw.githack.com/uiwjs/icons/v${{steps.create_tag.outputs.versionNumber}}/fonts/index.html) / [uiw icons measure](https://raw.githack.com/uiwjs/icons/v${{steps.create_tag.outputs.versionNumber}}/measure/uiw-icons/index.html)
+          [@uiw/icons@${{steps.create_tag.outputs.versionNumber}} document](https://raw.githack.com/uiwjs/icons/v${{steps.create_tag.outputs.versionNumber}}/fonts/index.html) / [uiw icons measure](https://raw.githack.com/uiwjs/icons/v${{steps.create_tag.outputs.versionNumber}}/measure/design/index.html)
 
           ${{ steps.changelog.outputs.compareurl }}
 
