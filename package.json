@@ -18,7 +18,9 @@
     "start": "npm run font && npm run build && npm run copy"
   },
   "files": [
-    "fonts"
+    "fonts",
+    "esm",
+    "lib"
   ],
   "keywords": [
     "svg",
