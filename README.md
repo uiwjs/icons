@@ -106,15 +106,16 @@ Or manually download and link `**@uiw/icons**` in your HTML, It can also be down
 
 ## React
 
-Create an `Icon` component.
+Icons are used as components. `v2.6.2` support.
 
 ```jsx
-import { Adobe } from '@uiw/icons';
+import { Adobe, Alipay } from '@uiw/icons';
 
-const Demo = () => <Adobe />;
+<Adobe style={{ fill: 'red' }} />
+<Alipay height="36" />
 ```
 
-
+Create an `Icon` component.
 
 ```jsx
 import React from 'react';
@@ -150,7 +151,6 @@ const demo = () => {
   )
 }
 ```
-
 
 ## Development
 
