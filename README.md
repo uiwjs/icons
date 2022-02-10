@@ -13,7 +13,7 @@ uiw-icons
 [![LICENSE](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/uiwjs/icons)
 [![NPM Version](https://img.shields.io/npm/v/@uiw/icons.svg)](https://www.npmjs.com/package/@uiw/icons)
 
-The premium icon font for [uiwjs](https://github.com/uiwjs) Component Library. Designed by [@liwen0526](https://github.com/liwen0526). 
+The premium icon font for [uiwjs](https://github.com/uiwjs) Component Library. Designed [`@uiw/icons`](https://uiwjs.github.io/icons/design/) by [@liwen0526](https://github.com/liwen0526). 
 
 Visit **[https://uiwjs.github.io/icons/](https://uiwjs.github.io/icons/)** and check out the search feature, which has keywords identifying common icon names and styles. For example, if you search for "arrow" we call up every icon that could possibly be used as an arrow. We've also included each icon's class name for easy copy / pasting when you're developing!
 
