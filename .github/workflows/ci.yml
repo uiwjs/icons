@@ -16,6 +16,7 @@ jobs:
     - run: npm run font
     - run: npm run build
     - run: npm run copy
+    - run: rm -rf fonts/react
     - run: cp -rp measure/design fonts
 
     - name: Create Tag
