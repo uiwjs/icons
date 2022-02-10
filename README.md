@@ -160,6 +160,16 @@ To build site and push gh-pages branch
 npm run start
 ```
 
+## Contributors
+
+As always, thanks to our amazing contributors!
+
+<a href="https://github.com/uiwjs/icons/graphs/contributors">
+  <img src="https://uiwjs.github.io/icons/CONTRIBUTORS.svg" />
+</a>
+
+Made with [github-action-contributors](https://github.com/jaywcjlove/github-action-contributors).
+
 ## License
 
 Created By [svgtofont](https://github.com/jaywcjlove/svgtofont), Licensed under the [MIT License](https://opensource.org/licenses/MIT).
