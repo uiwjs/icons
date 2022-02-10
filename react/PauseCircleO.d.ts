@@ -1,2 +1,2 @@
 import React from 'react';
-export declare const PauseCircleO: (props: React.HTMLAttributes<HTMLOrSVGElement>) => JSX.Element;
+export declare const PauseCircleO: (props: React.SVGProps<SVGSVGElement>) => JSX.Element;
