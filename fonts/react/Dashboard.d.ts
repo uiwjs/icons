@@ -1,2 +1,2 @@
 import React from 'react';
-export declare const Dashboard: (props: React.HTMLAttributes<HTMLOrSVGElement>) => JSX.Element;
+export declare const Dashboard: (props: React.SVGProps<SVGSVGElement>) => JSX.Element;

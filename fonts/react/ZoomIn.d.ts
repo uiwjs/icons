@@ -1,2 +1,2 @@
 import React from 'react';
-export declare const ZoomIn: (props: React.HTMLAttributes<HTMLOrSVGElement>) => JSX.Element;
+export declare const ZoomIn: (props: React.SVGProps<SVGSVGElement>) => JSX.Element;

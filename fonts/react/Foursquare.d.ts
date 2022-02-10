@@ -1,2 +1,2 @@
 import React from 'react';
-export declare const Foursquare: (props: React.HTMLAttributes<HTMLOrSVGElement>) => JSX.Element;
+export declare const Foursquare: (props: React.SVGProps<SVGSVGElement>) => JSX.Element;
