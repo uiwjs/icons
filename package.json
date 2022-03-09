@@ -14,7 +14,7 @@
   "scripts": {
     "font": "svgtofont --sources icons/icons --output fonts",
     "copy": "copyfiles -f fonts/react/*.d.ts lib --verbose && copyfiles -f fonts/react/*.d.ts esm --verbose",
-    "build": "tsbb build --entry fonts/react/index.js",
+    "build": "tsbb build --entry fonts/react/index.js --no-source-maps",
     "start": "npm run font && npm run build && npm run copy"
   },
   "files": [
@@ -50,9 +50,9 @@
     "url": "https://github.com/jaywcjlove/icons/issues"
   },
   "devDependencies": {
-    "copyfiles": "2.4.1",
-    "svgtofont": "3.17.4",
-    "tsbb": "3.5.6"
+    "copyfiles": "~2.4.1",
+    "svgtofont": "~3.17.4",
+    "tsbb": "~3.7.2"
   },
   "license": "MIT"
 }
