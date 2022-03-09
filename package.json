@@ -1,6 +1,6 @@
 {
   "name": "@uiw/icons",
-  "version": "2.6.6",
+  "version": "2.6.7",
   "description": "The premium icon font for uiw Component Library.",
   "author": "Kenny <wowohoo@qq.com>",
   "main": "./lib/index.js",
@@ -17,11 +17,6 @@
     "build": "tsbb build --entry fonts/react/index.js --no-source-maps",
     "start": "npm run font && npm run build && npm run copy"
   },
-  "files": [
-    "fonts",
-    "esm",
-    "lib"
-  ],
   "keywords": [
     "svg",
     "icon",
@@ -46,9 +41,6 @@
     "css",
     "base64"
   ],
-  "bugs": {
-    "url": "https://github.com/jaywcjlove/icons/issues"
-  },
   "devDependencies": {
     "copyfiles": "~2.4.1",
     "svgtofont": "~3.17.4",
