@@ -1,10 +1,13 @@
 node_modules
 npm-debug.log*
 package-lock.json
-package-lock.json
 uiw-icons.sketch
 build
+measure
+assets
+fonts/react
 
+.svgtofontrc
 .DS_Store
 .cache
 .vscode
