@@ -5,10 +5,11 @@
 </p>
 
 
-uiw-icons
----
+@uiw/icons
+===
 
 [![NPM Downloads](https://img.shields.io/npm/dm/@uiw/icons.svg?style=flat)](https://www.npmjs.com/package/@uiw/icons)
+[![jsDelivr CDN](https://data.jsdelivr.com/v1/package/npm/@uiw/icons/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@uiw/icons)
 [![releases version](https://img.shields.io/github/release/uiwjs/icons.svg)](https://github.com/uiwjs/icons/releases)
 [![LICENSE](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/uiwjs/icons)
 [![NPM Version](https://img.shields.io/npm/v/@uiw/icons.svg)](https://www.npmjs.com/package/@uiw/icons)
@@ -110,10 +111,13 @@ Icons are used as components. `v2.6.2+` support.
 
 ```jsx
 import { Adobe, Alipay } from '@uiw/icons';
+import { Alipay } from '@uiw/icons/Alipay';
 
 <Adobe style={{ fill: 'red' }} />
 <Alipay height="36" />
 ```
+
+**Custom Icon Component**
 
 Create an `Icon` component.
 
