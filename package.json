@@ -13,9 +13,9 @@
   "homepage": "https://uiwjs.github.io/icons",
   "scripts": {
     "font": "svgtofont --sources icons/icons --output fonts",
-    "copy": "copyfiles -f fonts/react/*.d.ts lib --verbose && copyfiles -f fonts/react/*.d.ts esm --verbose",
-    "build": "tsbb build --entry fonts/react/index.js --no-source-maps",
-    "start": "npm run font && npm run build && npm run copy"
+    "copy": "copyfiles -f fonts/react/* react --verbose",
+    "build": "tsbb build react/*.{js,d.ts} --useBabel",
+    "start": "npm run font && npm run copy && npm run build"
   },
   "keywords": [
     "svg",
@@ -43,8 +43,8 @@
   ],
   "devDependencies": {
     "copyfiles": "~2.4.1",
-    "svgtofont": "~3.17.4",
-    "tsbb": "~3.7.2"
+    "svgtofont": "~3.23.0",
+    "tsbb": "^4.0.2"
   },
   "license": "MIT"
 }
