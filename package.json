@@ -12,7 +12,7 @@
   },
   "homepage": "https://uiwjs.github.io/icons",
   "scripts": {
-    "font": "svgtofont --sources icons/icons --output fonts",
+    "font": "svgtofont --sources icon --output fonts",
     "copy": "cpy fonts/react/*.js fonts/react/*.d.ts react --flat",
     "build": "tsbb build react/*.{js,d.ts} --useBabel",
     "start": "npm run font && npm run copy && npm run build"
