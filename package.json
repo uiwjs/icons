@@ -44,7 +44,7 @@
   "devDependencies": {
     "copyfiles": "~2.4.1",
     "svgtofont": "~3.17.4",
-    "tsbb": "~3.7.2"
+    "tsbb": "~4.0.0"
   },
   "license": "MIT"
 }
