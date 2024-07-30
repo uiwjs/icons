@@ -1,16 +1,15 @@
 @font-face {
   font-family: "w-icon";
-  src: url('w-icon.eot?t=1719210302916'); /* IE9*/
-  src: url('w-icon.eot?t=1719210302916#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("w-icon.woff2?t=1719210302916") format("woff2"),
-  url("w-icon.woff?t=1719210302916") format("woff"),
-  url('w-icon.ttf?t=1719210302916') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('w-icon.svg?t=1719210302916#w-icon') format('svg'); /* iOS 4.1- */
+  src: url('w-icon.eot?t=1722369612831'); /* IE9*/
+  src: url('w-icon.eot?t=1722369612831#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("w-icon.woff2?t=1722369612831") format("woff2"),
+  url("w-icon.woff?t=1722369612831") format("woff"),
+  url('w-icon.ttf?t=1722369612831') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('w-icon.svg?t=1722369612831#w-icon') format('svg'); /* iOS 4.1- */
 }
 
 [class^="w-icon-"], [class*=" w-icon-"] {
   font-family: 'w-icon' !important;
-  font-size:16px;
   font-style:normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -231,3 +230,4 @@
 .w-icon-woman:before { content: "\ead4"; }
 .w-icon-zoom-in:before { content: "\ead5"; }
 .w-icon-zoom-out:before { content: "\ead6"; }
+
