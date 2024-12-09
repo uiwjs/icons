@@ -52,7 +52,7 @@
     "base64"
   ],
   "devDependencies": {
-    "cpy-cli": "^4.2.0",
+    "cpy-cli": "^5.0.0",
     "svgtofont": "~6.2.0",
     "tsbb": "^4.0.2"
   },
